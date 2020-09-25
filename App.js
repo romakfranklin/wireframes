@@ -1,6 +1,7 @@
-import { react } from 'react';
-import main from './app/screens/main';
+import React from "react";
 
-const App = () => <Main />;
+// import Main from "../src/screens/Main";
 
-export default App;
+import List from "./src/screens/List";
+
+export default () => <List />;
